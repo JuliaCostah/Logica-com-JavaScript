@@ -1,0 +1,8 @@
+<meta charset="UTF-8">
+<script>
+    const valorJantar = Number(prompt('Valor do jantar: ')) * 100; // * 100 para trabalhar com inteiros
+    const taxaGarcom = valorJantar * 10/100;
+    const total = valorJantar + taxaGarcom;
+    alert(`Valor Jantar: R$ ${(valorJantar/100).toFixed(2)}`);
+    alert(`Taxa do Garçom: R$ ${(taxaGarcom/100).toFixed(2)}\nTotal: R$ ${(total/100).toFixed(2)}`);
+</script>

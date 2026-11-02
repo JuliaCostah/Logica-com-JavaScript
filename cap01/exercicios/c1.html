@@ -1,0 +1,7 @@
+<meta charset="UTF-8">
+<script>
+    const preco = Number(prompt('Preço Produto R$: ')) * 100;
+    const aVista = preco - (preco * 10/100);
+    const parcelado3vezes = preco/3;
+    alert(`Total: R$ ${(preco/100).toFixed(2)}\nÁ vista: R$ ${(aVista/100).toFixed(2)}\nou 3x de R$ ${(parcelado3vezes/100).toFixed(2)}`)
+</script>
