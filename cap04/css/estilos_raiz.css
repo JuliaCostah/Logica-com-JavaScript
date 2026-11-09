@@ -1,0 +1,19 @@
+img{
+    float: right;
+    height: 250px;
+    width: 250px;
+}
+h1{
+    border-bottom-style: inset;
+    text-align: center;
+}
+body{
+    font-family: 'Cascadia Code', monospace;
+}
+form{
+    padding-left: 110px;
+}
+h3{
+    text-align: center;
+    color: brown;
+}
