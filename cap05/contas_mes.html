@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contas do mês</title>
+    <link rel="stylesheet" href="css/style_2.css">
+</head>
+<body>
+    <img src="image/images.jpeg" alt="Porquinho com dinheiro">
+    <h1>Programa Contas do Mês</h1>
+    <form>
+        <p>
+            Descrição da conta:
+            <input type="text" id="inConta" required>
+        </p>
+        <p>
+            Valor a pagar R$: 
+            <input type="number" id="inValor" min="0" step="0.01" required>
+        </p>
+        <input type="submit" value="Registrar Conta">
+    </form>
+    <hr>
+    <pre id="outResp1"></pre>
+    <pre id="outResp2"></pre>
+    <script src="js/contas_mes.js"></script>
+</body>
+</html>

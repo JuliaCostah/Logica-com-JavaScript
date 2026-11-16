@@ -1,0 +1,30 @@
+body{
+    font-family: "Cascadia Code";
+    background:  #c0546cd9;
+}
+img{
+    float: left;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+h1{
+    border-bottom-style: inset;
+    color: rgb(100, 37, 121);
+    text-align: center;
+}
+form{
+    padding-left: 320px;
+}
+pre{
+    padding-left: 320px;
+    font-family: "Cascadia Code";
+    font-size: 16px;
+}
+hr{
+    background: aliceblue;
+    width: 70%;
+    height: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
